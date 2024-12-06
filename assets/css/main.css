@@ -1,0 +1,36 @@
+body {
+  font-family: 'Noto Serif SC', 'Songti SC', serif; /* 使用中文友好的字体 */
+  background-color: #f0eae7; /* 古风背景颜色 */
+  color: #4a4a4a; /* 文字颜色 */
+  line-height: 1.8; /* 行高 */
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.video-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* 刻舟求剑成语描述的样式 */
+.idiom-description {
+  font-size: 14px;
+  color: #666;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 4px solid #d1b396;
+  background-color: #fff;
+}
