@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.story, .video {
+    margin: 20px 0;
+}
+
+.story h2, .video h2 {
+    color: #666;
+}
+
+.story p {
+    line-height: 1.6;
+    text-indent: 2em;
+}
+
+.video video {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e0e0e0;
+    border-top: 1px solid #ccc;
+}
